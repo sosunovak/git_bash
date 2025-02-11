@@ -1,0 +1,39 @@
+
+1. karinas@Air-Karina ~ % ls
+2. karinas@Air-Karina ~ % mkdir test3 
+3. karinas@Air-Karina test3 % touch 4.txt 5.txt 6.txt
+karinas@Air-Karina test3 % echo "row1" > 4.txt
+karinas@Air-Karina test3 % echo "row2" >> 4.txt
+karinas@Air-Karina test3 % echo "row3" >> 4.txt
+karinas@Air-Karina test3 % echo "row4" >> 4.txt
+karinas@Air-Karina test3 % echo "row1" > 5.txt
+karinas@Air-Karina test3 % echo "row2" >> 5.txt
+karinas@Air-Karina test3 % echo "row3" >> 5.txt
+karinas@Air-Karina test3 % echo "row4" >> 5.txt
+karinas@Air-Karina test3 % echo "row1" > 6.txt
+karinas@Air-Karina test3 % echo "row2" >> 6.txt
+karinas@Air-Karina test3 % echo "row3" >> 6.txt
+karinas@Air-Karina test3 % echo "row4" >> 6.txt
+4. karinas@Air-Karina test3 % grep "row2" 5.txt 
+5. karinas@Air-Karina test3 % grep -r "row" * 
+6. karinas@Air-Karina test3 % grep -c "row" 6.txt 
+7. karinas@Air-Karina ~ % find "test3" -name "5.txt" 
+8. karinas@Air-Karina ~ % find "test3" -name "5.txt" -delete
+9. karinas@Air-Karina test3 % echo "test" >> 4.txt 
+10. karinas@Air-Karina test3 % sed -i '' 's/test/fail/g' 4.txt
+11. karinas@Air-Karina test3 %  echo "test" >> 4.txt 
+12. karinas@Air-Karina ~ % ps aux 
+13. karinas@Air-Karina ~ % kill 666 
+14. karinas@Air-Karina ~ % ping rusau.net 
+15. karinas@Air-Karina ~ % ping -c 5 rusau.net 
+16. karinas@Air-Karina ~ % curl -X GET "https://petstore.swagger.io/v2/pet/findByStatus?status=available" -H "accept: application/json"
+17. karinas@Air-Karina ~ % curl -X POST "https://petstore.swagger.io/v2/user" -H "accept: application/json" -H "Content-Type: application/json" -d '{
+  "id": 0,
+  "username": "kari",
+  "firstName": "karina",
+  "lastName": "test",
+  "email": "newuser@example.com",
+  "password": "password",
+  "phone": "srting",     
+  "userStatus": 0
+}'

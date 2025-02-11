@@ -1,0 +1,27 @@
+
+1. karinas@Air-Karina ~ % ls
+2. karinas@Air-Karina ~ % pwd
+3. karinas@Air-Karina ~ % mkdir test1 
+4. karinas@Air-Karina ~ % cd test1 
+5. karinas@Air-Karina test1 % touch 1.txt 2.txt 3.txt  
+6. karinas@Air-Karina test1 % ls
+1.txt	2.txt	3.txt
+7. karinas@Air-Karina test1 % cd ~  
+8. karinas@Air-Karina ~ % mkdir test2 
+9. karinas@Air-Karina ~ % rmdir test2 
+10. karinas@Air-Karina test1 % rm 2.txt  
+11. karinas@Air-Karina ~ % mkdir test3
+12. karinas@Air-Karina test3 % touch 1.txt 2.txt 
+13. karinas@Air-Karina ~ % rm -r test3
+14. karinas@Air-Karina ~ % mkdir test4
+15. karinas@Air-Karina ~ % mv ~/test1/1.txt ~/test4/
+karinas@Air-Karina ~ % mv ~/test1/3.txt ~/test4/ 
+16. karinas@Air-Karina test4 % echo "line" > 1.txt
+karinas@Air-Karina test4 % echo "line" >> 1.txt
+karinas@Air-Karina test4 % echo "line" >> 1.txt
+17. karinas@Air-Karina test4 % cat 1.txt
+18. karinas@Air-Karina test4 % echo "line" > 3.txt 
+karinas@Air-Karina test4 % echo "line" >> 3.txt 
+karinas@Air-Karina test4 % echo "line" >> 3.txt 
+19. karinas@Air-Karina test4 % cat 1.txt 3.txt
+20. nano 1.txt
