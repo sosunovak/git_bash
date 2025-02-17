@@ -1,0 +1,8 @@
+git init sosunovak                                 Создание своего репозитория с таким же именем, как и имя пользователя в GitHub
+git clone git@github.com:sosunovak/sosunovak.git   Клонирование репозитория на свой компьютер в отдельную папку
+git clone git@github.com:testrusau/testrusau.git   Клонирование репозитория https://github.com/testrusau/testrusau на свой компьютер в отдельную папку
+cd testrusau                                       Перемещение из documents в директорию testrusau 
+cp -r testrusau sosunovak                          Копирование содержимого из testrusau в sosunovak 
+git add .                                          Индексирование всех изменённых файлов 
+git commit -m "Adding my portfolio"                Создание коммита с сообщением 
+git push                                           Отправдение изменений в удаленный репозиторий
